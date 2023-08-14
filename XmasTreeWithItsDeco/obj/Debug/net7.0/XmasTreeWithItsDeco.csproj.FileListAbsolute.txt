@@ -1,0 +1,15 @@
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\bin\Debug\net7.0\XmasTreeWithItsDeco.exe
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\bin\Debug\net7.0\XmasTreeWithItsDeco.deps.json
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\bin\Debug\net7.0\XmasTreeWithItsDeco.runtimeconfig.json
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\bin\Debug\net7.0\XmasTreeWithItsDeco.dll
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\bin\Debug\net7.0\XmasTreeWithItsDeco.pdb
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\obj\Debug\net7.0\XmasTreeWithItsDeco.csproj.AssemblyReference.cache
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\obj\Debug\net7.0\XmasTreeWithItsDeco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\obj\Debug\net7.0\XmasTreeWithItsDeco.AssemblyInfoInputs.cache
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\obj\Debug\net7.0\XmasTreeWithItsDeco.AssemblyInfo.cs
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\obj\Debug\net7.0\XmasTreeWithItsDeco.csproj.CoreCompileInputs.cache
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\obj\Debug\net7.0\XmasTreeWithItsDeco.dll
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\obj\Debug\net7.0\refint\XmasTreeWithItsDeco.dll
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\obj\Debug\net7.0\XmasTreeWithItsDeco.pdb
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\obj\Debug\net7.0\XmasTreeWithItsDeco.genruntimeconfig.cache
+C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\obj\Debug\net7.0\ref\XmasTreeWithItsDeco.dll
