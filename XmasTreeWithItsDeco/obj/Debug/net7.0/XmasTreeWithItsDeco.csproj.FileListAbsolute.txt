@@ -3,7 +3,6 @@ C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\bin\Debug\net7.0\
 C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\bin\Debug\net7.0\XmasTreeWithItsDeco.runtimeconfig.json
 C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\bin\Debug\net7.0\XmasTreeWithItsDeco.dll
 C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\bin\Debug\net7.0\XmasTreeWithItsDeco.pdb
-C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\obj\Debug\net7.0\XmasTreeWithItsDeco.csproj.AssemblyReference.cache
 C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\obj\Debug\net7.0\XmasTreeWithItsDeco.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\obj\Debug\net7.0\XmasTreeWithItsDeco.AssemblyInfoInputs.cache
 C:\Users\Fair\Documents\Hovedforløb\H1\C#\XmasTreeWithItsDeco\obj\Debug\net7.0\XmasTreeWithItsDeco.AssemblyInfo.cs

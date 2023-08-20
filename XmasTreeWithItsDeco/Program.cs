@@ -4,85 +4,47 @@
     {
         static void Main(string[] args)
         {
-            /*
-            string testStr = "*";
-            int testInt = 1;
-            int maxArray = 15;
-            int maxHeight = 8;
-            int[,] testArray = new int[1, maxArray];
-           
-            for (int cnt = 0;  cnt < maxHeight; cnt++)
+            char starChar = '*';
+            char spcChar = ' ';
+            byte starRow;
+            byte treeLen = 8;
+            byte starChng = 1;
+
+            Console.ForegroundColor = ConsoleColor.Green;  // Makes green the default color
+            for (byte treeLenCnt = 1; treeLenCnt <= treeLen; treeLenCnt++)  // Shifts the order by starting at 1 instead of 0
             {
-                Console.WriteLine(testStr);
-                for (int width = 0; width < cnt ;)
+                starChng++; // Indexes by row
+                starRow = (byte)(treeLen - treeLenCnt);  // Subtracts the amount to get the desired spacing
+                for (byte spcCnt = 0; spcCnt < starRow; spcCnt++)
                 {
-                    width++;
-                    Console.Write("*");
-                }  
+                    Console.Write(spcChar);
+                }
+                for (byte starAddCnt = 0; starAddCnt < treeLenCnt; starAddCnt++)
+                {
+                    if (starAddCnt < 1)  // Add one star if the add counter is less than 1, otherwise add two
+                    {
+                        Console.Write(starChar);
+                    }
+                    else
+                    {
+                        if (starChng % 2 == 1)  // Changes every other row to red, remains green
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            //Console.Write(starChar + starChng);
+                            Console.Write(starChar);
+                        }
+                        else
+                        {
+                            //Console.Write(starChar + starChng);
+                            Console.Write(starChar);
+                        }
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.Write(starChar);
+                    }
+                }
+                Console.WriteLine(string.Empty);  // Line breaks for each row
             }
-            */
-
-            /*
-            string[] starArray = {"*",
-                                "* * *",
-                              "* * * * *",
-                            "* * * * * * *",
-                          "* * * * * * * * *",
-                        "* * * * * * * * * * *",
-                      "* * * * * * * * * * * * *",
-                    "* * * * * * * * * * * * * * *"};
-            */
-
-/*
-            int sizeLen = 30;
-            string star_0, star_1, star_2, star_3, star_4, star_5, star_6, star_7;
-            star_0 = "*";
-            star_1 = "* * *";
-            star_2 = "* * * * *";
-            star_3 = "* * * * * * *";
-            star_4 = "* * * * * * * * *";
-            star_5 = "* * * * * * * * * * *";
-            star_6 = "* * * * * * * * * * * * *";
-            star_7 = "* * * * * * * * * * * * * * *";
-
-            // Calculating the string lengths.
-            int star_0_Len, star_1_Len, star_2_Len, star_3_Len, star_4_Len,
-                star_5_Len, star_6_Len, star_7_Len;
-            star_0_Len = star_0.Length;
-            star_1_Len = star_1.Length;
-            star_2_Len = star_2.Length;
-            star_3_Len = star_3.Length;
-            star_4_Len = star_4.Length;
-            star_5_Len = star_5.Length;
-            star_6_Len = star_6.Length;
-            star_7_Len = star_7.Length;
-
-            // Automatically adjusting the spacing according to the string length.
-            var spaceStar_0 = String.Concat(Enumerable.Repeat(" ", sizeLen - star_0_Len/2));
-            var spaceStar_1 = String.Concat(Enumerable.Repeat(" ", sizeLen - star_1_Len/2));
-            var spaceStar_2 = String.Concat(Enumerable.Repeat(" ", sizeLen - star_2_Len/2));
-            var spaceStar_3 = String.Concat(Enumerable.Repeat(" ", sizeLen - star_3_Len/2));
-            var spaceStar_4 = String.Concat(Enumerable.Repeat(" ", sizeLen - star_4_Len/2));
-            var spaceStar_5 = String.Concat(Enumerable.Repeat(" ", sizeLen - star_5_Len/2));
-            var spaceStar_6 = String.Concat(Enumerable.Repeat(" ", sizeLen - star_6_Len/2));
-            var spaceStar_7 = String.Concat(Enumerable.Repeat(" ", sizeLen - star_7_Len/2));
-
-            Console.WriteLine(spaceStar_0 + star_0);
-            Console.WriteLine(string.Empty);
-            Console.WriteLine(spaceStar_1 + star_1);
-            Console.WriteLine(string.Empty);
-            Console.WriteLine(spaceStar_2 + star_2);
-            Console.WriteLine(string.Empty);
-            Console.WriteLine(spaceStar_3 + star_3);
-            Console.WriteLine(string.Empty);
-            Console.WriteLine(spaceStar_4 + star_4);
-            Console.WriteLine(string.Empty);
-            Console.WriteLine(spaceStar_5 + star_5);
-            Console.WriteLine(string.Empty);
-            Console.WriteLine(spaceStar_6 + star_6);
-            Console.WriteLine(string.Empty);
-            Console.WriteLine(spaceStar_7 + star_7);
-*/
+            Console.ResetColor();  // Resets the color to white at the end
         }
     }
 }
